@@ -1,0 +1,57 @@
+h1  {
+background-color: orange;
+border: orange;
+color: white;
+text-align: center;
+margin: 1px;
+padding: 80px;
+
+}
+p{
+color:orange
+}
+h2{
+    color: orange;
+}
+figcaption{
+    color: orange;
+}
+h2{
+    color: orange;
+}
+
+footer{
+   color: white;
+background-color: orange;
+    grid-area: footer;
+    text-align: center;
+}
+nav{
+grid-area: sidebar;
+background-color: beige;
+
+
+}
+#the_page{
+    display: grid;
+    color: beige;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas: "header header"
+        "sidebar content"
+        "footer footer";
+
+}
+header{
+
+    grid-area:header;
+}
+main{
+grid-area: content;
+
+}
+a{
+    color: orange;
+}
+#Lev{
+    color: white;
+}
